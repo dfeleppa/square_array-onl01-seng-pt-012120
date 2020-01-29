@@ -2,8 +2,9 @@ def square_array(array)
   squared=[]
   
   array.each {|numbers| 
-    numbers=numbers**2
+    numbers=numbers*numbers
     squared << numbers 
   }     
 squared
 end
+
